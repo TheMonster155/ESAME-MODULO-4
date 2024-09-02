@@ -1,0 +1,79 @@
+
+*{
+    font-family: Arial, sans-serif;
+    
+}
+
+.navbar{
+  color: #6feef2 !important;
+}
+.card {
+    height: 600px;
+    width: 420px;
+    max-width: 320;;
+    border: 1px solid #dee2e6; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin-bottom: 1.5rem; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+.btn-secondary:hover {
+    background-color: #5a6268; 
+    border-color: #4e555b; 
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #004080; 
+}
+
+.card-footer {
+    background-color: #f8f9fa; 
+    border-top: 1px solid #dee2e6; 
+}
+
+.offcanvas-header, .offcanvas-body {
+    color: #f8f9fa; 
+    background-color: #343a40;
+}
+
+#counter{
+    color: black;
+}
+
+ion-icon{
+    color: red;
+    font-size: 25px;
+}
+
+@media (min-width: 576px) {
+    .card {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        max-width: 960px;
+    }
+}

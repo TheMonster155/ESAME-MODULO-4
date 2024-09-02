@@ -1,0 +1,135 @@
+/* Rimuove i margini e padding del body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+
+
+/* Navbar customizzata */
+.navbar {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #343a40; 
+}
+
+/* Impostazioni per l'header per evitare spazio extra */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile del resto della pagina */
+.navbar-brand,
+.nav-link {
+    color: #ffffff; 
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #cccccc; 
+}
+
+.btn-outline-success {
+    color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.btn-outline-success:hover {
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Stile per la sezione dei dettagli */
+#details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin: 20px 0;
+}
+
+.card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card strong {
+    font-weight: bold;
+}
+
+.card button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #4cae4c;
+}
+
+/* Box shadow enhancement on hover */
+.card:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.col-3 {
+    width: 25%; 
+    padding: 15px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 100%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    margin: auto; 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h2 {
+    font-size: 1.5em; 
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em; 
+    margin: 5px 0;
+}

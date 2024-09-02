@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+
+.form-control{
+    max-height: 150px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
